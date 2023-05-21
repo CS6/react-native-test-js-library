@@ -1,5 +1,5 @@
 {
-  "name": "react-native-test-js-library",
+  "name": "@cs6/react-native-test-js-library",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -40,7 +40,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/CS6/react-native-test-js-library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CS6/react-native-test-js-library.git"
+  },
   "author": "CS6 <dayuanlin@oursong.com> (https://github.com/CS6/react-native-test-js-library)",
   "license": "MIT",
   "bugs": {
@@ -155,5 +158,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }
